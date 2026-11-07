@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vetriva Animal Hospital | Veterinary Clinic in Islamabad</title>
+  <meta name="description" content="Vetriva Animal Hospital in Islamabad offers consultations, vaccinations, surgery, dental care, diagnostics, grooming and emergency care for dogs, cats, birds and small pets.">
+  <meta name="theme-color" content="#0E2944">
+  <meta property="og:title" content="Vetriva Animal Hospital, Islamabad">
+  <meta property="og:description" content="Expert, gentle veterinary care for your best friend.">
+  <meta property="og:image" content="assets/img/favicon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- ============ HEADER + HERO ============ -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Vetriva Animal Hospital home">
+        <img src="assets/img/emblem-white.png" alt="" class="brand__emblem" width="574" height="388">
+        <img src="assets/img/wordmark-white.png" alt="Vetriva" class="brand__wordmark" width="705" height="158">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#home" class="is-active">Home</a>
+        <a href="about.html">About</a>
+        <div class="nav__item has-mega" id="servicesMenu">
+          <a href="#services" class="nav__link" aria-haspopup="true">Services <svg class="nav__chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+          <button class="mega-toggle" type="button" aria-expanded="false" aria-controls="mega" aria-label="Show all services"><svg class="nav__chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          <div class="mega" id="mega">
+            <div class="container mega__inner">
+              <div class="mega__group">
+                <p class="mega__title"><span class="mega__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span>Preventive Care</p>
+                <ul>
+                    <li><a href="service-wellness-examination.html">Wellness Examination</a></li>
+                    <li><a href="service-vaccination.html">Vaccination</a></li>
+                    <li><a href="service-deworming.html">Deworming</a></li>
+                    <li><a href="service-microchipping.html">Microchipping</a></li>
+                </ul>
+              </div>
+              <div class="mega__group">
+                <p class="mega__title"><span class="mega__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 8v8M8 12h8"/></svg></span>Surgery &amp; Treatment</p>
+                <ul>
+                    <li><a href="service-surgery.html">Surgery</a></li>
+                    <li><a href="service-neutering-spaying.html">Neutering &amp; Spaying</a></li>
+                    <li><a href="service-dentistry.html">Dentistry</a></li>
+                    <li><a href="service-exotic-animals.html">Exotic Animals</a></li>
+                </ul>
+              </div>
+              <div class="mega__group">
+                <p class="mega__title"><span class="mega__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>Diagnostics</p>
+                <ul>
+                    <li><a href="service-laboratory.html">Laboratory</a></li>
+                    <li><a href="service-digital-x-rays.html">Digital X-rays</a></li>
+                    <li><a href="service-ultrasound.html">Ultrasound</a></li>
+                    <li><a href="service-mri-ct-scan.html">MRI &amp; CT Scan</a></li>
+                    <li><a href="service-ecg-eco.html">ECG &amp; ECO</a></li>
+                </ul>
+              </div>
+              <div class="mega__group">
+                <p class="mega__title"><span class="mega__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10Z"/><path d="M2 21c0-3 1.9-5.4 5.2-6.1 2.4-.5 4.8-2 5.8-3.9"/></svg></span>Nutrition &amp; Care</p>
+                <ul>
+                    <li><a href="service-diet-management.html">Diet Management</a></li>
+                    <li><a href="service-pet-food.html">Pet Food</a></li>
+                    <li><a href="service-grooming.html">Grooming</a></li>
+                </ul>
+              </div>
+              <aside class="mega__card">
+                <p class="mega__card-title">Not sure what your pet needs?</p>
+                <p>Book a wellness examination and our vets will guide you.</p>
+                <a href="#book" class="mega__btn" data-service="Wellness Examination">Book a check-up <span aria-hidden="true">&rarr;</span></a>
+                <a href="tel:+923239737896" class="mega__phone">or call +92 323 9737896</a>
+              </aside>
+            </div>
+          </div>
+        </div>
+        <div class="nav__item has-mega" id="productsMenu">
+          <a href="dog-products.html" class="nav__link nav__link--plain" aria-haspopup="true">Products <svg class="nav__chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+          <button class="mega-toggle" type="button" aria-expanded="false" aria-controls="megaProducts" aria-label="Show products"><svg class="nav__chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          <div class="mega mega--products" id="megaProducts">
+            <div class="container mega__inner">
+              <div class="prod">
+                <div class="prod__img"><img src="assets/img/pets/terrier.webp" alt="" width="842" height="860" loading="lazy"></div>
+                <div class="prod__body">
+                  <a href="dog-products.html" class="prod__title">Dog <span aria-hidden="true">&rarr;</span></a>
+                  <p class="prod__blurb">Everything your dog needs, recommended by our vets.</p>
+                  <ul class="prod__list">
+                    <li><a href="dog-products.html#food">Food</a></li>
+                    <li><a href="dog-products.html#treats">Treats</a></li>
+                    <li><a href="dog-products.html#toys">Toys</a></li>
+                    <li><a href="dog-products.html#accessories">Accessories</a></li>
+                    <li><a href="dog-products.html#grooming">Grooming</a></li>
+                    <li><a href="dog-products.html#health-care">Health Care</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="prod">
+                <div class="prod__img"><img src="assets/img/pets/cat-tabby.webp" alt="" width="696" height="760" loading="lazy"></div>
+                <div class="prod__body">
+                  <a href="cat-products.html" class="prod__title">Cat <span aria-hidden="true">&rarr;</span></a>
+                  <p class="prod__blurb">Quality essentials for happy, healthy cats.</p>
+                  <ul class="prod__list">
+                    <li><a href="cat-products.html#food">Food</a></li>
+                    <li><a href="cat-products.html#treats">Treats</a></li>
+                    <li><a href="cat-products.html#toys">Toys</a></li>
+                    <li><a href="cat-products.html#accessories">Accessories</a></li>
+                    <li><a href="cat-products.html#grooming">Grooming</a></li>
+                    <li><a href="cat-products.html#health-care">Health Care</a></li>
+                  </ul>
+                </div>
+              </div>
+              <aside class="mega__card">
+                <p class="mega__card-title">Order on WhatsApp</p>
+                <p>Ask us about availability and prices, then collect from the clinic.</p>
+                <a href="https://wa.me/923239737896?text=Hello%20Vetriva%2C%20I%20would%20like%20to%20ask%20about%20your%20pet%20products." class="mega__btn" target="_blank" rel="noopener">Chat with us <span aria-hidden="true">&rarr;</span></a>
+              </aside>
+            </div>
+          </div>
+        </div>
+        <a href="#facility">Facility</a>
+        <a href="#why">Why Us</a>
+        <a href="#contact">Contact</a>
+        <!-- TODO: replace with the clinic's real phone number -->
+        <a href="tel:+923239737896" class="phone-pill">
+          <span class="phone-pill__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
+          +92 323 9737896
+        </a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero texture" id="home">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <h1>Expert Care For <span class="script">Your Best Friend</span></h1>
+          <p class="hero__lead">Trusted veterinary care for your pets in Islamabad, from routine check-ups and vaccinations to surgery, delivered with a gentle touch.</p>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__ring" aria-hidden="true"></div>
+          <!-- Puppy peeking over a ledge. The head is a 31-frame turn (far left to far right) drawn on the
+               canvas and scrubbed by the cursor; the still (looking to the front) is shown until the frames have loaded. -->
+          <div class="pup" id="pup" role="img" aria-label="A Rottweiler puppy peeking over a ledge">
+            <div class="pup__heads">
+              <img src="assets/img/puppy/frames/f15.webp" alt="" class="pup__head" width="1090" height="924" fetchpriority="high">
+              <canvas class="pup__canvas" width="1090" height="924" hidden></canvas>
+            </div>
+            <!-- The puppy rests its paws on this bone; the shaft's top edge lines up with the cut-off of the head frames -->
+            <a href="#book" class="bone" aria-label="Book an appointment">
+              <img src="assets/img/bone.webp" alt="" class="bone__img" width="2000" height="520" fetchpriority="high">
+              <span class="bone__label">
+                <span>Book now</span>
+                <span class="bone__arrow"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              </span>
+            </a>
+            <img src="assets/img/puppy/paws.webp" alt="" class="pup__paws" width="1090" height="924">
+          </div>
+        </div>
+      </div>
+
+      <svg class="wave wave--bottom" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 150c180-10 330 40 520 36 230-5 330-90 560-120 140-18 250-6 360 10v124H0Z"/>
+      </svg>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Our Services</h2>
+          <p>From the moment your friend walks through our door to the wag on the way home, we care for every need under one roof.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 5.2C8.5 4 6.2 3.6 4.5 4.6 3 5.5 2.6 8.6 3.4 10.6c.4 1 1.5 1.2 2.1.6M14 5.2c1.5-1.2 3.8-1.6 5.5-.6 1.5.9 1.9 4 1.1 6-.4 1-1.5 1.2-2.1.6"/><path d="M6 9.5C6 6.9 8.7 5 12 5s6 1.9 6 4.5V14a6 6 0 0 1-12 0z"/><path d="M10.8 14.5h2.4L12 16z"/><circle cx="9.5" cy="11" r=".5"/><circle cx="14.5" cy="11" r=".5"/></svg></span>
+            <h3>Consultations</h3>
+            <p>Wellness exams, illness diagnosis and personalised treatment plans.</p>
+            <a href="service-wellness-examination.html" class="card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 2 4 4M17 7l3-3M19 9 8.7 19.3a2.4 2.4 0 0 1-3.4 0l-.6-.6a2.4 2.4 0 0 1 0-3.4L15 5M9 11l4 4M5 19l-3 3M14 4l6 6"/></svg></span>
+            <h3>Vaccinations</h3>
+            <p>Core and lifestyle vaccines, rabies shots and deworming on schedule.</p>
+            <a href="service-vaccination.html" class="card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 8v8M8 12h8"/></svg></span>
+            <h3>Surgery</h3>
+            <p>Spay &amp; neuter, soft-tissue and orthopaedic procedures done safely.</p>
+            <a href="service-surgery.html" class="card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></svg></span>
+            <h3>Pet Grooming</h3>
+            <p>Your pet will leave feeling happy, looking great and smelling fresh.</p>
+            <a href="service-grooming.html" class="card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6.5L4.5 19A1.5 1.5 0 0 0 5.8 21h12.4a1.5 1.5 0 0 0 1.3-2L14 9.5V3"/><path d="M7 15h10"/></svg></span>
+            <h3>Diagnostics &amp; Lab</h3>
+            <p>Blood work, X-ray and ultrasound for fast, accurate answers.</p>
+            <a href="service-laboratory.html" class="card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5c-1.5-2-4.5-2.5-6.5-1S3 9 4 12c.7 2 1 4 1.5 6 .3 1.5 1 2.5 2 2.5s1.5-1 2-3c.4-1.5 1-2.5 2.5-2.5s2.1 1 2.5 2.5c.5 2 1 3 2 3s1.7-1 2-2.5c.5-2 .8-4 1.5-6 1-3 .5-6-1.5-7.5s-5-1-6.5 1z"/></svg></span>
+            <h3>Dental Care</h3>
+            <p>Scaling, polishing and extractions for healthy, pain-free mouths.</p>
+            <a href="service-dentistry.html" class="card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+            <h3>Emergency Care</h3>
+            <p>Prompt stabilisation and treatment when your pet needs help fast.</p>
+            <a href="tel:+923239737896" class="card__link">Call now <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="card reveal">
+            <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9V3.5l4 3a9 9 0 0 1 6 0l4-3V9c1 1.2 1.5 2.6 1.5 4.2 0 4-3.8 6.8-8.5 6.8s-8.5-2.8-8.5-6.8C3.5 11.6 4 10.2 5 9z"/><path d="M11 15.5h2l-1 1z"/><circle cx="9" cy="12.5" r=".5"/><circle cx="15" cy="12.5" r=".5"/></svg></span>
+            <h3>Nutrition &amp; Wellness</h3>
+            <p>Diet plans, weight management and senior-pet care advice.</p>
+            <a href="service-diet-management.html" class="card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MISSION ============ -->
+    <section class="mission" id="mission" aria-labelledby="missionTitle">
+      <div class="container mission__wrap">
+        <!-- Composition scales as one piece; every layer is positioned in % of the stage -->
+        <div class="mission__stage">
+          <h2 class="mission__title" id="missionTitle">
+            <span class="mission__soft">we care for</span>
+            <span class="mission__bold">every pet</span>
+          </h2>
+
+          <svg class="mission__scope" data-depth="0.25" viewBox="0 0 300 560" aria-hidden="true">
+            <defs>
+              <linearGradient id="scopeMetal" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#F4F7FA"/><stop offset="1" stop-color="#AEBBCB"/>
+              </linearGradient>
+              <linearGradient id="scopeTube" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#2E5B91"/><stop offset=".45" stop-color="#4A7FBE"/><stop offset="1" stop-color="#2E5B91"/>
+              </linearGradient>
+            </defs>
+            <!-- metal ear tubes -->
+            <path d="M70 46C58 110 92 170 132 206M222 36C236 104 196 168 150 206" fill="none" stroke="url(#scopeMetal)" stroke-width="11" stroke-linecap="round"/>
+            <circle cx="70" cy="38" r="16" fill="#1F426D"/>
+            <circle cx="223" cy="28" r="16" fill="#1F426D"/>
+            <!-- rubber tube -->
+            <path d="M141 206C141 300 44 318 44 420C44 520 160 548 214 470" fill="none" stroke="url(#scopeTube)" stroke-width="28" stroke-linecap="round"/>
+            <path d="M136 216C132 296 52 326 52 418" fill="none" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="7" stroke-linecap="round"/>
+            <!-- chest piece -->
+            <circle cx="238" cy="452" r="52" fill="url(#scopeMetal)"/>
+            <circle cx="238" cy="452" r="40" fill="#2E5B91"/>
+            <circle cx="238" cy="452" r="30" fill="#4A7FBE"/>
+            <circle cx="226" cy="440" r="9" fill="#FFFFFF" fill-opacity=".35"/>
+          </svg>
+
+          <img class="pet pet--macaw" data-depth="0.6" src="assets/img/pets/macaw.webp" alt="" width="472" height="620" loading="lazy">
+          <img class="pet pet--robin" data-depth="0.8" src="assets/img/pets/robin.webp" alt="" width="420" height="392" loading="lazy">
+          <img class="pet pet--cat" data-depth="0.4" src="assets/img/pets/cat-walk.webp" alt="" width="610" height="760" loading="lazy">
+          <img class="pet pet--dog" data-depth="0.2" src="assets/img/pets/terrier.webp" alt="" width="842" height="860" loading="lazy">
+          <img class="pet pet--corgi" data-depth="0.3" src="assets/img/pets/corgi.webp" alt="" width="468" height="720" loading="lazy">
+          <img class="pet pet--hamster" data-depth="0.15" src="assets/img/pets/hamster.webp" alt="" width="326" height="420" loading="lazy">
+          <img class="pet pet--yawn" data-depth="0.25" src="assets/img/pets/cat-yawn.webp" alt="" width="475" height="640" loading="lazy">
+        </div>
+        <p class="mission__tagline">Caring for every animal is our mission.</p>
+      </div>
+    </section>
+
+    <!-- ============ FACILITY ============ -->
+    <section class="section facility" id="facility">
+      <div class="container facility__grid">
+        <div class="facility__art reveal">
+          <svg class="facility__blob" viewBox="0 0 700 560" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0 40c90-30 210-50 330-20 120 30 210 30 290 90 70 52 90 140 60 220-30 80-110 120-140 170-30 50-100 70-200 55C230 538 120 560 0 540Z"/>
+          </svg>
+          <img src="assets/img/photos/kitten.webp" alt="A playful kitten reaching up with its paw" class="facility__kitten" width="572" height="1000" loading="lazy">
+          <span class="paw paw--a" aria-hidden="true"></span>
+          <span class="paw paw--b" aria-hidden="true"></span>
+        </div>
+
+        <div class="facility__copy">
+          <h2 class="reveal">Modern Hospital Facility</h2>
+          <p class="facility__intro reveal">A calm, clean and fully equipped space designed around the comfort and safety of your pet.</p>
+
+          <div class="feature reveal">
+            <span class="feature__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4M6 10h3l1.5-3 3 6 1.5-3h3"/></svg></span>
+            <div>
+              <h3>In-House Diagnostics</h3>
+              <p>Lab tests, X-ray and ultrasound on site mean faster answers and fewer trips for you and your pet.</p>
+            </div>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <div>
+              <h3>Clean, Safe &amp; Calm</h3>
+              <p>Strict hygiene across consultation, surgery and recovery, with quiet spaces that help anxious pets relax.</p>
+            </div>
+          </div>
+
+          <a href="#book" class="btn btn--primary reveal">Book a Visit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY US ============ -->
+    <section class="section why" id="why">
+      <div class="container why__grid">
+        <div class="why__copy">
+          <p class="label reveal">Why Vetriva</p>
+          <h2 class="reveal">We Keep Them Happy</h2>
+
+          <div class="accordion reveal" id="accordion">
+            <details open>
+              <summary>
+                <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="5.4" cy="10.4" rx="2.1" ry="2.6" transform="rotate(-20 5.4 10.4)"/><ellipse cx="9.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(-6 9.5 5.9)"/><ellipse cx="14.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(6 14.5 5.9)"/><ellipse cx="18.6" cy="10.4" rx="2.1" ry="2.6" transform="rotate(20 18.6 10.4)"/><path d="M12 11.6c-3 0-6.1 3.7-6.1 6.3 0 1.7 1.3 2.5 2.9 2.5 1.3 0 2.1-.7 3.2-.7s1.9.7 3.2.7c1.6 0 2.9-.8 2.9-2.5 0-2.6-3.1-6.3-6.1-6.3z"/></svg></span>
+                Qualified, Caring Vets
+              </summary>
+              <p>Our team is trained in gentle handling and in reading the signs of illness, stress and pain, and we explain every step and option clearly.</p>
+            </details>
+            <details>
+              <summary>
+                <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="5.4" cy="10.4" rx="2.1" ry="2.6" transform="rotate(-20 5.4 10.4)"/><ellipse cx="9.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(-6 9.5 5.9)"/><ellipse cx="14.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(6 14.5 5.9)"/><ellipse cx="18.6" cy="10.4" rx="2.1" ry="2.6" transform="rotate(20 18.6 10.4)"/><path d="M12 11.6c-3 0-6.1 3.7-6.1 6.3 0 1.7 1.3 2.5 2.9 2.5 1.3 0 2.1-.7 3.2-.7s1.9.7 3.2.7c1.6 0 2.9-.8 2.9-2.5 0-2.6-3.1-6.3-6.1-6.3z"/></svg></span>
+                Fear-Free Handling
+              </summary>
+              <p>Low-stress techniques, patience and plenty of treats help nervous pets feel safe during every visit.</p>
+            </details>
+            <details>
+              <summary>
+                <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="5.4" cy="10.4" rx="2.1" ry="2.6" transform="rotate(-20 5.4 10.4)"/><ellipse cx="9.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(-6 9.5 5.9)"/><ellipse cx="14.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(6 14.5 5.9)"/><ellipse cx="18.6" cy="10.4" rx="2.1" ry="2.6" transform="rotate(20 18.6 10.4)"/><path d="M12 11.6c-3 0-6.1 3.7-6.1 6.3 0 1.7 1.3 2.5 2.9 2.5 1.3 0 2.1-.7 3.2-.7s1.9.7 3.2.7c1.6 0 2.9-.8 2.9-2.5 0-2.6-3.1-6.3-6.1-6.3z"/></svg></span>
+                Meticulous About Medicine
+              </summary>
+              <p>Accurate dosing, clear aftercare instructions and follow-ups so treatment works as it should.</p>
+            </details>
+            <details>
+              <summary>
+                <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="5.4" cy="10.4" rx="2.1" ry="2.6" transform="rotate(-20 5.4 10.4)"/><ellipse cx="9.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(-6 9.5 5.9)"/><ellipse cx="14.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(6 14.5 5.9)"/><ellipse cx="18.6" cy="10.4" rx="2.1" ry="2.6" transform="rotate(20 18.6 10.4)"/><path d="M12 11.6c-3 0-6.1 3.7-6.1 6.3 0 1.7 1.3 2.5 2.9 2.5 1.3 0 2.1-.7 3.2-.7s1.9.7 3.2.7c1.6 0 2.9-.8 2.9-2.5 0-2.6-3.1-6.3-6.1-6.3z"/></svg></span>
+                What To Bring
+              </summary>
+              <p>Previous medical and vaccination records, a list of current medicines and food, and your pet on a leash or in a secure carrier.</p>
+            </details>
+          </div>
+        </div>
+
+        <div class="why__art reveal">
+          <svg class="why__blob" viewBox="0 0 700 600" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M700 30c-110-30-230-40-340 0C250 70 140 60 70 140 0 220 10 330 60 410c50 80 150 110 250 150 100 40 230 50 390 20Z"/>
+          </svg>
+          <div class="why__photo">
+            <img src="assets/img/photos/vet-cat.webp" alt="A vet gently examining a cat" width="1100" height="733" loading="lazy">
+          </div>
+          <span class="paw paw--c" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="booking texture" id="book">
+      <svg class="wave wave--top" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 0h1440v40c-160 50-330 80-520 50C700 56 560 110 360 104 210 100 90 60 0 70Z"/>
+      </svg>
+
+      <div class="container booking__grid">
+        <div class="booking__copy">
+          <h2 class="reveal">Book An <span class="script">Appointment</span></h2>
+          <p class="reveal">Fill in the form and your request goes straight to us on WhatsApp. We'll confirm your time shortly.</p>
+          <ul class="booking__perks reveal">
+            <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="5.4" cy="10.4" rx="2.1" ry="2.6" transform="rotate(-20 5.4 10.4)"/><ellipse cx="9.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(-6 9.5 5.9)"/><ellipse cx="14.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(6 14.5 5.9)"/><ellipse cx="18.6" cy="10.4" rx="2.1" ry="2.6" transform="rotate(20 18.6 10.4)"/><path d="M12 11.6c-3 0-6.1 3.7-6.1 6.3 0 1.7 1.3 2.5 2.9 2.5 1.3 0 2.1-.7 3.2-.7s1.9.7 3.2.7c1.6 0 2.9-.8 2.9-2.5 0-2.6-3.1-6.3-6.1-6.3z"/></svg></span>Dogs, cats, birds, rabbits &amp; small pets</li>
+            <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="5.4" cy="10.4" rx="2.1" ry="2.6" transform="rotate(-20 5.4 10.4)"/><ellipse cx="9.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(-6 9.5 5.9)"/><ellipse cx="14.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(6 14.5 5.9)"/><ellipse cx="18.6" cy="10.4" rx="2.1" ry="2.6" transform="rotate(20 18.6 10.4)"/><path d="M12 11.6c-3 0-6.1 3.7-6.1 6.3 0 1.7 1.3 2.5 2.9 2.5 1.3 0 2.1-.7 3.2-.7s1.9.7 3.2.7c1.6 0 2.9-.8 2.9-2.5 0-2.6-3.1-6.3-6.1-6.3z"/></svg></span>Walk-ins welcome, emergencies prioritised</li>
+            <li><span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="5.4" cy="10.4" rx="2.1" ry="2.6" transform="rotate(-20 5.4 10.4)"/><ellipse cx="9.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(-6 9.5 5.9)"/><ellipse cx="14.5" cy="5.9" rx="2.1" ry="2.7" transform="rotate(6 14.5 5.9)"/><ellipse cx="18.6" cy="10.4" rx="2.1" ry="2.6" transform="rotate(20 18.6 10.4)"/><path d="M12 11.6c-3 0-6.1 3.7-6.1 6.3 0 1.7 1.3 2.5 2.9 2.5 1.3 0 2.1-.7 3.2-.7s1.9.7 3.2.7c1.6 0 2.9-.8 2.9-2.5 0-2.6-3.1-6.3-6.1-6.3z"/></svg></span>Quick confirmation on WhatsApp</li>
+          </ul>
+          <img src="assets/img/photos/beagle.webp" alt="A smiling beagle" class="booking__dog" width="690" height="800" loading="lazy">
+        </div>
+
+        <form class="form reveal" id="bookingForm" novalidate>
+          <div class="field-row">
+            <label class="field">
+              <span>Your name</span>
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Phone number</span>
+              <input type="tel" name="phone" autocomplete="tel" placeholder="03XX XXXXXXX" required>
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span>Pet's name</span>
+              <input type="text" name="pet" required>
+            </label>
+            <label class="field">
+              <span>Pet type</span>
+              <select name="species" required>
+                <option value="">Select</option>
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Bird</option>
+                <option>Rabbit</option>
+                <option>Other</option>
+              </select>
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span>Service</span>
+              <select name="service" required>
+                <option value="">Select</option>
+                <optgroup label="Preventive Care">
+                  <option>Wellness Examination</option>
+                  <option>Vaccination</option>
+                  <option>Deworming</option>
+                  <option>Microchipping</option>
+                </optgroup>
+                <optgroup label="Surgery &amp; Treatment">
+                  <option>Surgery</option>
+                  <option>Neutering &amp; Spaying</option>
+                  <option>Dentistry</option>
+                  <option>Exotic Animals</option>
+                </optgroup>
+                <optgroup label="Diagnostics">
+                  <option>Laboratory</option>
+                  <option>Digital X-rays</option>
+                  <option>Ultrasound</option>
+                  <option>MRI &amp; CT Scan</option>
+                  <option>ECG &amp; ECO</option>
+                </optgroup>
+                <optgroup label="Nutrition &amp; Care">
+                  <option>Diet Management</option>
+                  <option>Pet Food</option>
+                  <option>Grooming</option>
+                </optgroup>
+                <option>Other</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Preferred date</span>
+              <input type="date" name="date" required>
+            </label>
+          </div>
+          <label class="field">
+            <span>Anything we should know? <em>(optional)</em></span>
+            <textarea name="notes" rows="3"></textarea>
+          </label>
+          <p class="form-error" id="formError" role="alert" hidden>Please fill in all required fields.</p>
+          <button type="submit" class="btn btn--primary btn--block">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21l1.7-5A9 9 0 1 1 8 19.3z"/></svg>
+            Send on WhatsApp
+          </button>
+        </form>
+      </div>
+
+      <svg class="wave wave--bottom" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 80c200-50 380-60 600-20 220 40 420 50 600 10 100-22 180-30 240-26v96H0Z"/>
+      </svg>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Visit Us In Islamabad</h2>
+          <p>We'd love to meet you and your pet. Reach out any way you like.</p>
+        </div>
+
+        <!-- TODO: replace the placeholder address, phone, email and hours with the clinic's real details -->
+        <div class="contact__grid">
+          <div class="contact__cards">
+            <div class="info reveal">
+              <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <div><h3>Address</h3><p>Shop 1 &amp; 2 Basement, Pakeeza Cash and Carry, The Arcadia Plaza, D Markaz Block D Markaz, Gulberg Residencia, Islamabad</p></div>
+            </div>
+            <div class="info reveal">
+              <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
+              <div><h3>Phone / WhatsApp</h3><p><a href="tel:+923239737896">+92 323 9737896</a></p></div>
+            </div>
+            <div class="info reveal">
+              <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+              <div><h3>Email</h3><p><a href="mailto:info@vetriva.pk">info@vetriva.pk</a></p></div>
+            </div>
+            <div class="info reveal">
+              <span class="card__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+              <div><h3>Opening Hours</h3><p>Mon &ndash; Sat: 10 am &ndash; 9 pm<br>Sunday: 12 pm &ndash; 6 pm</p></div>
+            </div>
+          </div>
+          <div class="map reveal">
+            <!-- Map searches for The Arcadia Plaza; replace q= with the clinic's Google Maps share link if the pin is off -->
+            <iframe title="Vetriva Animal Hospital location" src="https://maps.google.com/maps?q=The%20Arcadia%20Plaza%2C%20D%20Markaz%2C%20Gulberg%20Residencia%2C%20Islamabad%2C%20Pakistan&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer texture">
+    <svg class="wave wave--top" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0h1440v30c-220 60-420 70-700 30C460 20 240 30 0 80Z"/>
+    </svg>
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/img/logo-white.png" alt="Vetriva Animal Hospital" width="705" height="628">
+        <p>Expert, gentle veterinary care for the pets you love, right here in Islamabad.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#facility">Facility</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="dog-products.html">Dog Products</a></li>
+          <li><a href="cat-products.html">Cat Products</a></li>
+          <li><a href="#book">Book Appointment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="service-wellness-examination.html">Wellness Examination</a></li>
+          <li><a href="service-vaccination.html">Vaccination</a></li>
+          <li><a href="service-surgery.html">Surgery</a></li>
+          <li><a href="service-grooming.html">Grooming</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get In Touch</h4>
+        <ul>
+          <li>Shop 1 &amp; 2 Basement, Pakeeza Cash and Carry, The Arcadia Plaza, D Markaz, Gulberg Residencia, Islamabad</li>
+          <li><a href="tel:+923239737896">+92 323 9737896</a></li>
+          <li><a href="mailto:info@vetriva.pk">info@vetriva.pk</a></li>
+        </ul>
+        <div class="socials">
+          <!-- TODO: add real social media links -->
+          <a href="#" aria-label="Facebook"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year">2026</span> Vetriva Animal Hospital. All rights reserved.</p>
+      <p class="credit">Photos from Unsplash &amp; Pexels &middot; Developed by <a href="https://nextcore.com.pk/" target="_blank" rel="noopener">NextCore</a></p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a href="https://wa.me/923239737896" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.6 5.7 5 2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.3z"/></svg>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
