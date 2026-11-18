@@ -404,7 +404,7 @@ def build(svc):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{ename} | Vetriva Animal Hospital, Islamabad</title>
   <meta name="description" content="{html.escape(svc['tagline'])} {ename} at Vetriva Animal Hospital in Islamabad.">
-  <meta name="theme-color" content="#0E2944">
+  <meta name="theme-color" content="#0B2D5B">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">

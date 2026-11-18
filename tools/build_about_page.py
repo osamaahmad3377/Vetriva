@@ -94,7 +94,7 @@ def build():
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About Us | Vetriva Animal Hospital, Islamabad</title>
   <meta name="description" content="Meet Vetriva Animal Hospital in Islamabad: expert, compassionate veterinary care for dogs, cats, birds, rabbits and small pets.">
-  <meta name="theme-color" content="#0E2944">
+  <meta name="theme-color" content="#0B2D5B">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
